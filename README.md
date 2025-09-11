@@ -1,7 +1,7 @@
 # NPSS
 
 ## Introduction
-Nasal polyps (NP) are a common upper respiratory condition associated with diverse inflammatory cell subtypes, influencing clinical aspects, and prognosis. However, manually tallying cells in microscopic images (MI) is laborious, involving subject sampling, and view selection, impacting precise diagnosis and treatment. We develop a robust NP pathological subtype diagnosis system (NPSS) with artificial intelligence, contributing to precision diagnosis and individualized treatment. NPSS consists of two main parts, the first part is that we use [PA-P2PNet](https://arxiv.org/abs/2303.02602 "DPA-P2PNet: Deformable Proposal-aware P2PNet for Accurate Point-based Cell Detection") to detect cells. The second part uses [DeepLab V3+](https://github.com/VainF/DeepLabV3Plus-Pytorch "DeepLabV3Plus-Pytorch")(This part of the code is shown in this link and is no longer available here) to detect tissue areas.
+Nasal polyps (NP) are a common upper respiratory condition associated with diverse inflammatory cell subtypes, influencing clinical aspects, and prognosis. However, manually tallying cells in microscopic images (MI) is laborious, involving subject sampling, and view selection, impacting precise diagnosis and treatment. We develop a robust NP pathological subtype diagnosis system (NPSS) with artificial intelligence, contributing to precision diagnosis and individualized treatment. NPSS consists of two main parts, the first part is that we use [PA-P2PNet](https://arxiv.org/abs/2303.02602 "DPA-P2PNet: Deformable Proposal-aware P2PNet for Accurate Point-based Cell Detection") to detect cells. The second part uses [U-KAN](https://github.com/CUHK-AIM-Group/U-KAN")(This part of the code is shown in this link and is no longer available here) to detect tissue areas.
 
 This is the code for NPSS. For more details, please refer to our paper.
 
@@ -29,5 +29,6 @@ You can download our software from BaiduYun or Google drive. When you unzip down
 <p align="center">
     <img src="imgs/npss3d.jpg" width=800></br>
 </p>
+
 
 
