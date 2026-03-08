@@ -15,7 +15,9 @@ To train the model, run the train.py program
 ```python
 CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 --master_port=29510 train.py --output_dir=_savePath_.pth --eos_coef=0.8 --dataset=bxr --num_classes=4 --num_workers=4 --start_eval=50 --epochs=150 --batch_size=4
 ```
-
+## How to use this model
+Pretrained cell detection model is availiable at[GoogleDrive](https://drive.google.com/drive/folders/1k-zLZ3scI0Lb-vJo4x8jT7OxQFKpInp_?usp=drive_link)
+Pretrained cell segmentation model is availiable at[GoogleDrive](https://drive.google.com/file/d/1PsDXjRDAWFz8OMvPibjn5fyeBHLAN6uA/view?usp=drive_link)
 ## Visualization of Results (4 classes + 3 classes, 1920 x 1080)
 <p align="center">
     <img src="imgs/image1.jpg" width=600></br>
@@ -29,6 +31,7 @@ You can download our software from BaiduYun or Google drive. When you unzip down
 <p align="center">
     <img src="imgs/npss3d.jpg" width=800></br>
 </p>
+
 
 
 
